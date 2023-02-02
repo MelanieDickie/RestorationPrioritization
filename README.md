@@ -140,7 +140,7 @@ ggplot() +
 ## Calculate Gain in Unaltered Habitat
 
 ``` r
-##Subtract % altered following restoration from current % altered
+##Subtract area altered following restoration from current area altered
 Twps$GIU_area<-Twps$A_d_wf-Twps$A_d_nswf
 Twps$GIU<-Twps$P_d_wf-Twps$P_d_nswf
 
